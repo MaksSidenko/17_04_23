@@ -1,0 +1,7 @@
+1) npx create-next-app --typescript  -  to initialize next app
+2) npm run dev  -  to start local server
+https://tailwindcss.com/docs/guides/nextjs
+3) npm install -D tailwindcss postcss autoprefixer
+4) npx tailwindcss init -p - to initialize a Tailwind CSS configuration file with the default settings and generate
+ a tailwind.config.js file. The -p flag is short for --postcss, indicating that the configuration file should
+ be set up for use with PostCSS.
