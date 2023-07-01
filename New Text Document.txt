@@ -11,3 +11,10 @@ https://tailwindcss.com/docs/guides/nextjs
 
 1) https://www.youtube.com/watch?v=jx5jmI0UlXU  -- Learn CSS Position In 9 Minutes
 2) https://www.youtube.com/watch?v=fYq5PXgSsbE -- Learn Flexbox in 15 Minutes
+3) https://www.youtube.com/watch?v=L7o0wKjjFi4 - Learn React #6: Spread Syntax + Spreading in React
+
+1) https://www.youtube.com/watch?v=SqcY0GlETPk -- React Tutorial for Beginners
+2) https://www.youtube.com/watch?v=Rh3tobg7hEo -- Learn React With This One Project
+3) https://www.youtube.com/watch?v=OH4msPNM2CI&list=PLQg6GaokU5CyvExiaMgXP_BS5WWNBfZJN  -- Learn React #1: Introduction to React - 2021 Edition
+4) https://www.youtube.com/watch?v=m55PTVUrlnA - All The JavaScript You Need To Know For React
+5) https://www.youtube.com/watch?v=OJ16BaPC6VI - React  TypeScript
