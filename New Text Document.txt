@@ -18,3 +18,7 @@ https://tailwindcss.com/docs/guides/nextjs
 3) https://www.youtube.com/watch?v=OH4msPNM2CI&list=PLQg6GaokU5CyvExiaMgXP_BS5WWNBfZJN  -- Learn React #1: Introduction to React - 2021 Edition
 4) https://www.youtube.com/watch?v=m55PTVUrlnA - All The JavaScript You Need To Know For React
 5) https://www.youtube.com/watch?v=OJ16BaPC6VI - React  TypeScript
+
+
+
+1) https://www.youtube.com/watch?v=5llXA0RTYIU&list=PLQg6GaokU5CyvExiaMgXP_BS5WWNBfZJN&index=11  - 15/07

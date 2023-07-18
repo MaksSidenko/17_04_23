@@ -1,37 +1,29 @@
 import './App.css';
-import Employee from './Props';
+import Project from './project';
 
-const employeeInfo = [
-  {
-    name: 'andriy',
-    age: '22',
-    keyID
-  },
-  {
-    name: 'ivan',
-    age: '23',
-    keyID
-  },
-  {
-    name: 'joe',
-    age: '25',
-    keyID
-  }
+const employee = [
+	{
+		name: 'Maks',
+		id: '637',
+    surname: 'Si'
+	},
+	// {
+	// 	name: 'Lex',
+	// 	id: '234'
+	// }
 ]
-
 function App() {
-  return (
+  const baseEmployeeObject = {
+    role : 'employee',
+    company : 'tesla'
+  }
+  const firstEmployee = {...baseEmployeeObject,  ...employee[0]}
+  console.log(firstEmployee)
+  return(
     <div className="App">
-      <header className="App-header">
-        {
-          employeeInfo.map(employee=>{
-            return (
-            <Employee {...employee}/>
-            );
-        })}
-      </header>
+      <h1><Project {...firstEmployee}/></h1>
     </div>
-  );
+    );
 }
 
 export default App;

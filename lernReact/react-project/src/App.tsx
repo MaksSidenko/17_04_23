@@ -1,22 +1,11 @@
-import Button from "./components/Button";
-import Alert from "./components/Alert";
-import { useState } from "react";
+import ListGroup from "./components/ListGroup";
 
-function App() {
-  const [alertVisiable, setAlertVisibility] = useState(false);
-
+const App = () => {
   return (
-    <div>
-      {alertVisiable && (
-        <Alert onClose={() => setAlertVisibility(false)}>
-          <h1>Alert!!!!!!!</h1>
-        </Alert>
-      )}
-      <Button color="secondary" onClick={() => setAlertVisibility(true)}>
-        <h2>button</h2>
-      </Button>
+    <div className="wrapper">
+      <ListGroup />
     </div>
   );
-}
+};
 
 export default App;
