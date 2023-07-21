@@ -1,19 +1,26 @@
+https://www.youtube.com/watch?v=SqcY0GlETPk
+1) 50 00
+2) 52 40
+3) 54 33
+4) 58 14 - notifying app component
+
+
 import { useState } from "react";
 
-interface Props {
-  heading: string;
+interface ListGroupProps {
   animals: string[];
+  heading: string;
   onSelectItem: (item: string) => void;
 }
 
-const ListGroup = ({ heading, animals, onSelectItem }: Props) => {
+const ListGroup = ({ animals, heading, onSelectItem }: ListGroupProps) => {
   // const animals = [];
+
+  const [selectedIndex, setSelectedIndex] = useState(-1);
 
   const message = () => {
     return animals.length === 0 && <p>Not found</p>;
   };
-
-  const [selectedItem, setSelectedItem] = useState(-1);
 
   // const handleMessage = (e: MouseEvent) => {
   //   console.log(e.target.animal);
@@ -27,14 +34,14 @@ const ListGroup = ({ heading, animals, onSelectItem }: Props) => {
         {animals.map((animal, index) => (
           <li
             onClick={() => {
-              setSelectedItem(index);
+              setSelectedIndex(index);
               onSelectItem(animal);
             }}
             key={animal}
             className={
-              selectedItem === index
+              selectedIndex === index
                 ? "list-group-item active"
-                : " list-group-item"
+                : "list-group-item"
             }
           >
             {animal}

@@ -1,0 +1,8 @@
+https://www.youtube.com/watch?v=SqcY0GlETPk
+rafce - short cut to start react app
+1) 1:03:56
+2) 1:04:53
+https://stackoverflow.com/questions/59332761/how-can-i-fix-error-message-given-by-react-developper-tools-on-the-default-react
+Clear Browser cache". You can access this function with the following shortcut: Press the keys [Ctrl], [Shift] and [Del].
+
+1:11:11

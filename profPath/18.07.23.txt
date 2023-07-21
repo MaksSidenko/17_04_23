@@ -1,0 +1,60 @@
+18/07/2023
+1)
+https://www.youtube.com/watch?v=SqcY0GlETPk
+32.57
+2) 34:14 - not good practice, but need to know
+3) 35:55 - good  practice
+4) 36:25
+5) 38:28
+6) 39:40
+7) 40:17
+8) 40:36
+9) 44:22 type annotation
+
+10) const handleMessage = (animal: string) => {
+    console.log(animal);
+  };
+
+
+
+import { MouseEvent } from "react";
+
+const ListGroup = () => {
+  const animals = ["cat", "dog", "pig", "cow"];
+  // const animals = [];
+
+  const message = () => {
+    return animals.length === 0 && <p>Not found</p>;
+  };
+
+  // const handleMessage = (e: MouseEvent) => {
+  //   console.log(e.target.animal);
+  // };
+
+  const handleMessage = (animal: string) => {
+    console.log(animal);
+  };
+
+  return (
+    <>
+      <h1>List of animals</h1>
+      {message()}
+      <ul className="list-group">
+        {animals.map((animal) => (
+          <li
+            onClick={() => handleMessage(animal)}
+            key={animal}
+            className="list-group-item"
+          >
+            {animal}
+          </li>
+        ))}
+      </ul>
+    </>
+  );
+};
+
+export default ListGroup;
+
+
+
